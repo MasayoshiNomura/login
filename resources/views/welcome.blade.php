@@ -79,11 +79,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Develop ACS Home
+                    Develop ACS
                 </div>
 
                 <div class="links">
-                    <a href="http://localhost:8000">Home</a>
+                    <a href="http://localhost:8000">Develop ACS</a>
                     <a href="#">News</a>
                     <a href="#">Documentation</a>
                     <a href="#">Nova</a>
