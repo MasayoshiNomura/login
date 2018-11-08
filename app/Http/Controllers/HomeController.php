@@ -26,4 +26,10 @@ class HomeController extends Controller
         $employee = Employee::all();
         return view('home', compact(["employee"]));
     }
+
+    public function employee(){
+        $employee = Employee::all();
+        return view('employee', compact(["employee"]));
+    }
+
 }
