@@ -81,15 +81,6 @@
                 <div class="title m-b-md">
                     Develop ACS
                 </div>
-
-                <div class="links">
-                    <a href="http://localhost:8000">Develop ACS</a>
-                    <a href="#">News</a>
-                    <a href="#">Documentation</a>
-                    <a href="#">Nova</a>
-                    <a href="#">Forge</a>
-                    <a href="#">GitHub</a>
-                </div>
             </div>
         </div>
     </body>
