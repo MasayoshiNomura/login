@@ -32,4 +32,26 @@ class HomeController extends Controller
         return view('employee', compact(["employee"]));
     }
 
+    public function employee_form(){
+        $employee = Employee::all();
+        return view('employee_form', compact(["employee"]));
+    }
+
+    public function store(Request $request) {
+        $employee = new Employee;
+        $employee->employee_number = $request->employee_number;
+        $employee->department = $request->department;
+        $employee->position = $request->position;
+        $employee->first_name = $request->first_name;
+        $employee->last_name = $request->last_name;
+        $employee->sexuality = $request->sexuality;
+        $employee->email = $request->email;
+        $employee->tel = $request->tel;
+        $employee->skill = $request->skill;
+        $employee->note = $request->note;
+        $employee->save();
+
+        return view('employee_form');
+    }
+
 }
